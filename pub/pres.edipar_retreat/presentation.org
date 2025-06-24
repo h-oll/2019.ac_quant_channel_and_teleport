@@ -1,0 +1,389 @@
+:PROPERTIES:
+#+OPTIONS: H:2 toc:t num:t
+#+LATEX_HEADER_EXTRA: \usepackage{braket}
+#+LATEX_HEADER_EXTRA: \usepackage{amsmath}
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+BEAMER_THEME: default
+:END:
+
+#+TITLE:     Quantum Protocols: Updating and Using the Zoo
+#+DATE:      2019-11-12
+
+* Part I: Updating the zoo
+** Part I: Updating the zoo
+** What's new: Code
+***                                                        :B_column:BMCOL:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: 0.4
+:END:
+- 9 protocols available 
+- 2 more under review
+- more to come thanks to the hackathon
+- higher-order functions
+
+***                                                        :B_column:BMCOL:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: 0.6
+:END:
+[[./figs/qpz_protocols.png]]
+
+*** 
+https://www.github.com/quantumprotocolzoo/protocols
+
+** What's new: Certification library
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: 0.4
+:END:
+- 7 classes 
+- 7 protocols described
+- 9 more being worked out
+
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: 0.6
+:END:
+[[./figs/wiki_certification.png]]
+
+** What's new: Local information processing library
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: 0.4
+:END:
+- Planning a separate "local information processing" page
+- Distinguish comm. / cert. / local IP
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: 0.6
+:END:
+[[./figs/wiki_subroutines.png]]
+** What's new: 2-step submission process
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: .4
+:END:
+- Each submission needs approval
+- Pages needing approval are visible to logged in users 
+- Log in!
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: .6
+:END:
+[[./figs/wiki_submission.png]]
+** What's new: Knowledge graph
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: .4
+:END:
+- A page for exploring the full KG
+- A local KG per protocol
+- Single source of truth
+- Soon fixing the I-don't-see-what-I-should-do problem
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: .6
+:END:
+[[./figs/wiki_kg.png]]
+[[./figs/wiki_kg_2.png]]
+** What's new: Planning a new home page
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: .4
+:END:
+- Short(er)
+- Shows what you can find
+- Visual
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: .6
+:END:
+[[./draw_me_a_protocol.jpg]]
+** What's new: What should you remember?
+***                                     :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: .6
+:END:
+Contribute, promote, use!
+- https://wiki.veriqloud.fr
+- https://www.github.com/quantumprotocolzoo/protocols
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: .4
+:END:
+[[./figs/wiki_logo.png]]
+
+
+* Part II: Using the zoo
+** Part II: Using the zoo
+** Using it: It works!
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: .4
+:END:
+- 6 locations
+- About 80 participants
+- Impressive presentations
+***                                                              :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: .6
+:END:
+[[./figs/hackathon.jpg]]
+
+** Using it: What did we learn?
+***  It is useful
+  - Enough to find the challenges
+  - (Almost) enough to code
+*** It needs expansion
+- More protocols
+- More code (examples + higher-order functions)
+- More details (links to security proof, type of security achieved)
+  
+** Using it: Planning the future
+***                                                             :B_columns:
+:PROPERTIES:
+:BEAMER_env: columns
+:END:
+****                                                            :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: .6
+:END:
+***** The "Delft" approach...                                   :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+  - Simulate
+  - Build network layers on what you can do
+
+***** ... raises some challenges                                :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- Experimentalists want to know if they'll publish in Nature!
+  - Simulate or not simulate?
+- Reconciling the use of network model layers with security proofs
+  - Calling lower-layers for services implies decomposing protocols
+  - Is it legitimate ?
+
+****                                                            :B_column:
+:PROPERTIES:
+:BEAMER_env: column
+:BEAMER_col: .4
+:END:
+[[./figs/network_stack.png]]
+
+
+** Using it: Planning the future  
+*** Adopt a top-down approach
+- Applications is what matters
+- Proper services should be provided (experimentalists will know if it's worth working on a protocol)
+- Abstract crypto as much as possible (quantum networks should be secure by design)
+
+**Now better than later!**
+
+
+* Part III: Going further
+** Part III: Going further
+
+** Direct link or teleportation ?
+- Protocols make use of direct links between players:
+  - Send qubit from $A$ to $B$
+- Network stack is not planning to send qubits but to teleport them
+  - Is it working ?
+  - Does it compose ?
+- And if it's OK doesn't it use sources of EPR pairs ?
+  - How do I get one ?
+  - Are all implementations OK ?
+  
+
+** Constructing a Direct Quantum Link with Teleportation
+***                                                             :B_columns:
+:PROPERTIES:
+:BEAMER_env: columns
+:BEAMER_opt: t
+:END:
+**** Direct Quantum Link                                         :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: .5
+:END:
+[[./figs/direct_quantum_link.png]]
+**** Teleportation                                               :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: .5
+:END:
+[[./figs/teleportation.png]]
+
+** Teleportation correctly implements Direct Quantum Link
+***                                                             :B_columns:
+:PROPERTIES:
+:BEAMER_env: columns
+:BEAMER_opt: t
+:END:
+**** Direct Quantum Link                                         :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: .5
+:END:
+[[./figs/direct_quantum_link_filtered.png]]
+**** Teleportation                                               :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: .5
+:END:
+[[./figs/teleportation_filtered.png]]
+*** 
+When no one is listening, teleportation works (perfectly)
+
+** Teleportation securely implements Direct Quantum Link
+***                                                             :B_columns:
+:PROPERTIES:
+:BEAMER_env: columns
+:BEAMER_opt: t
+:END:
+**** Direct Quantum Link + simulator                             :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: .5
+:END:
+[[./figs/direct_quantum_link_simulator.png]]
+**** Teleportation                                               :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: .5
+:END:
+[[./figs/teleportation.png]]
+*** 
+Isn't it cheating? 
+
+No! The Direct Quantum Link does not achieve any security; the simulator rightfully  gets the to-be-transmitted quantum state. 
+
+
+** Constructing a perfect EPR-source from Distillation
+**Using a perfect EPR-source is no fun**
+***                                                             :B_columns:
+:PROPERTIES:
+:BEAMER_env: columns
+:BEAMER_opt: t
+:END:
+**** Perfect EPR-source                                          :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: .5
+:END:
+[[./figs/epr_source.png]]
+**** Distillation                                                :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: .5
+:END:
+[[./figs/distillation.png]]
+** More on distillation (1/2)
+3-step process
+- Apply Twirl + Symmetrisation
+- Verify that fidelity is what you expect or abort
+- Choose and apply a suitable distillation protocol
+
+** More on distillation (2/2)
+- Initial state: $\rho_{ABE} \in \mathcal{H}_2^{\otimes n} \otimes \mathcal{H}_2^{\otimes n} \otimes \mathcal H_E$
+- Entering protocol: $\rho = \text{Tr}_{E}(\rho_{ABE}) \in \mathcal H_2^{\otimes n} \otimes \mathcal H_2^{\otimes n}$
+- Twirl + Symmetrisation: $\rho_1 = \mathcal E_1(\rho) \in \mathcal H_2^{\otimes n-m} \otimes \mathcal H_2^{\otimes n-m}$
+- Fidelity est.: $\rho_2 = \mathcal E_2(\rho_1) \in \mathcal H_2^{\otimes n-m-l} \otimes \mathcal H_2^{\otimes n-m-l} \oplus \mathcal H_\perp$
+- Distillation $\rho_3 = \mathcal E_3(\rho_2) \in \mathcal H_2^{\otimes n-m-l-k} \otimes \mathcal H_2^{\otimes n-m-l-k} \oplus \mathcal H_\perp$
+
+** Distillation correctly implements a perfect EPR-source (1/2)
+***                                                             :B_columns:
+:PROPERTIES:
+:BEAMER_env: columns
+:BEAMER_opt: t
+:END:
+**** Perfect EPR-source                                          :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: .5
+:END:
+[[./figs/epr_source_filtered.png]]
+**** Distillation                                                :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: .5
+:END:
+
+[[./figs/distillation_filtered.png]]
+** Distillation correctly implements a perfect EPR-source (2/2)
+- Twirl + Symmetrization
+$$\rho_1 = \rho_{\text{source}}^{\otimes n-m}$$ 
+- Finite precision fidelity estimation 
+$$\rho_2 \approx (1-p_\perp) \rho_W^{\otimes n-m-l}  + p_\perp \ket{\perp}\bra{\perp}$$ 
+- Strictly positive rate distillation
+$$\rho_3 \approx (1-p_\perp') \ket{\Phi^+}\bra{\Phi^+} ^{\otimes n-m-l-k} + p_\perp' \ket{\perp}\bra{\perp}$$
+
+** Distillation securely implements a perfect EPR-source (1/3)
+***                                                             :B_columns:
+:PROPERTIES:
+:BEAMER_env: columns
+:BEAMER_opt: t
+:END:
+**** Perfect EPR-source + simulator                              :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: .5
+:END:
+[[./figs/epr_source_simulator.png]]
+**** Distillation                                                :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: .5
+:END:
+[[./figs/distillation.png]]
+** Distillation securely implements a perfect EPR-source (2/3)
+We should be looking at $\rho_{ABE}$, but in fact we can get away by (almost only) looking at $\rho_{AB}$!
+
+- Tracing out 
+$$\rho = \text{Tr}_E(\rho_{ABE})$$
+- Twirl + Symmetrization
+$$\rho_1 \approx \rho_{2\times 2}^{\otimes n-m}$$
+- Finite precision fidelity estimation
+$$\rho_2  \approx (1-p_\perp) \rho_W^{\otimes n-m-l}  + p_\perp \ket{\perp}\bra{\perp}$$ 
+- Strictly positive rate distillation
+$$\rho_3 \approx (1-p_\perp') \ket{\Phi^+}\bra{\Phi^+} ^{\otimes n-m-l-k} + p_\perp' \ket{\perp}\bra{\perp}$$
+
+** Distillation securely implements a perfect EPR-source (3/3)
+We should be looking at $\rho_{ABE}$, but in fact we can get away by (almost only) looking at $\rho_{AB}$!
+
+- The analysis without $E$ gives
+$$( \mathcal{E}_3 \circ \mathcal E_2 \circ \mathcal E_1)  \text{Tr}_E \rho_{ABE} \approx (1-p_\perp') \ket{\Phi^+}\bra{\Phi^+} ^{\otimes n-m-l-k} + p_\perp' \ket{\perp}\bra{\perp}$$
+
+- Gentle measurement theorem implies (because we are next to a *pure* state when pairs are produced)
+$$((\mathcal{E}_3 \circ \mathcal E_2 \circ \mathcal E_1) \otimes \text{Id}_E) \rho_{ABE} \approx ((1-p_\perp') \ket{\Phi^+}\bra{\Phi^+} ^{\otimes n-m-l-k} \\+ p_\perp' \ket{\perp}\bra{\perp})\otimes \text{Tr}_{AB} (\rho_{ABE})$$
+
+
+* Conclusion
+
+** Conclusion
+- We have a great tool to expand at https://wiki.veriqloud.fr
+- It's directly useful to the community and also to ourselves
+- Expand this kind of analysis
+  - Look at other elementary functions
+  - Take noise into account
+  
+
+

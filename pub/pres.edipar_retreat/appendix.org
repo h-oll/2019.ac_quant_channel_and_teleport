@@ -1,0 +1,11 @@
+** Appendix
+- de Finetti theorem gives: 
+$$\|\rho_1 - \rho{\text{iid}}\| \leq 32 \frac{n-m}{n}$$
+- fidelity estimation $\tilde F$ is close to actual fidelity $F$:
+$$F \in [\tilde F - 2\epsilon_f, \tilde F + 2\epsilon_f], \text{w.p.} > 1-2\delta_f$$
+- the distillation step uses $k$ pairs and will produce with probability $(1-p_\perp)$ a state s.t. (and will fail with prob. $p_\perp$):
+$$F(\rho_{A_iB_i}, \ket{\Phi^+}\bra{\Phi^+}) > (1-\epsilon_d)$$
+
+Now we can get the trace distance for the reduced input and output states. 
+
+Using gentle measurement theorem, we go back to full state.

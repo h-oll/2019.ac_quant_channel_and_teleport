@@ -1,0 +1,14 @@
+:PROPERTIES:
+#+STARTUP: indent
+# +TODO: INX PLN PRC LTR NXT TDO DNG WTC | DNE DRP REF LTS
+:END:
+
+#+TITLE: Building a library of composable functions for quantum communication and distributed quantum computers
+#+DATE: 2019-09-02
+#+AUTHOR: Harold Ollivier
+
+Recent developments in quantum information processing have attracted much light in the past few years. While most of the attention is drawn at quantum computing tasks and achieving quantum supremacy, efforts are also building up in the field of quantum communication under the catchy "quantum internet" buzzword. These efforts are nonetheless necessary in order to enable quantum computers to be accessible to remote clients, and in a shorter-term vision to demonstrate the advantages of quantum communication over its classical counterpart, be it for cryptographic or distributed computing on NISQ machines.
+
+Paramount to the development of these networks, the available software stack is very limited and still in its infancy leaving a lot to be done in order to construct the tools needed for implementing protocols on real hardware or on simulated networks.
+
+In this work we report on the progress of building a library of cryptographically composable functions (in the sense of abstract cryptography) on top of the specialised SimulaQron / CQC back-end framework. We exhibit classes of real-world entanglement distillation and teleportation protocols that are composable and show how such requirement impacts the code of such utility functions. As such, these two utility functions allow experimentalists to devise hardware setups that circumvent the need for deterministic single photon sources in protocol implementations by replacing them with a sequence of entanglement distillations and teleportations while being certain that the cryptographic properties of the whole algorithm are not affected by the substitution.
