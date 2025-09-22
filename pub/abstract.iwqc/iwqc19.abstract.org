@@ -1,11 +1,10 @@
-:PROPERTIES:
-#+STARTUP: indent
-# +TODO: INX PLN PRC LTR NXT TDO DNG WTC | DNE DRP REF LTS
-:END:
-
 #+TITLE: Building a library of composable functions for quantum communication and distributed quantum computers
 #+DATE: 2019-09-02
 #+AUTHOR: Harold Ollivier
+:OPTIONS:
+#+STARTUP: indent
+# +TODO: INX PLN PRC LTR NXT TDO DNG WTC | DNE DRP REF LTS
+:END:
 
 Recent developments in quantum information processing have attracted much light in the past few years. While most of the attention is drawn at quantum computing tasks and achieving quantum supremacy, efforts are also building up in the field of quantum communication under the catchy "quantum internet" buzzword. These efforts are nonetheless necessary in order to enable quantum computers to be accessible to remote clients, and in a shorter-term vision to demonstrate the advantages of quantum communication over its classical counterpart, be it for cryptographic or distributed computing on NISQ machines.
 

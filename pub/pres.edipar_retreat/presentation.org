@@ -1,4 +1,6 @@
-:PROPERTIES:
+#+TITLE:     Quantum Protocols: Updating and Using the Zoo
+#+DATE:      2019-11-12
+:OPTIONS:
 #+OPTIONS: H:2 toc:t num:t
 #+LATEX_HEADER_EXTRA: \usepackage{braket}
 #+LATEX_HEADER_EXTRA: \usepackage{amsmath}
@@ -7,8 +9,6 @@
 #+BEAMER_THEME: default
 :END:
 
-#+TITLE:     Quantum Protocols: Updating and Using the Zoo
-#+DATE:      2019-11-12
 
 * Part I: Updating the zoo
 ** Part I: Updating the zoo
