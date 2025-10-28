@@ -11,12 +11,22 @@
 
 
 * Part I: Updating the zoo
+:PROPERTIES:
+:ID:       bfcd2306-c464-41f9-8f5d-c73a5e40ee55
+:END:
 ** Part I: Updating the zoo
+:PROPERTIES:
+:ID:       3631cc52-50cf-4f14-b990-aa08e32152c8
+:END:
 ** What's new: Code
+:PROPERTIES:
+:ID:       051b4ed6-fe27-4e5b-bfca-485d59c6508e
+:END:
 ***                                                        :B_column:BMCOL:
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: 0.4
+:ID:       dca3b6cf-a4e5-4e40-b04d-34e507a1bf39
 :END:
 - 9 protocols available 
 - 2 more under review
@@ -27,17 +37,25 @@
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: 0.6
+:ID:       69d7ef48-5efb-4f28-b404-cebe5cd07ab9
 :END:
 [[./figs/qpz_protocols.png]]
 
 *** 
+:PROPERTIES:
+:ID:       f86a28dd-6d6c-456c-87b4-28b8c7bc7362
+:END:
 https://www.github.com/quantumprotocolzoo/protocols
 
 ** What's new: Certification library
+:PROPERTIES:
+:ID:       0c84ec63-d930-488c-8a07-abe791442f41
+:END:
 ***                                                              :B_column:
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: 0.4
+:ID:       3d0c2933-3527-48f1-a5a4-7af40d336372
 :END:
 - 7 classes 
 - 7 protocols described
@@ -47,14 +65,19 @@ https://www.github.com/quantumprotocolzoo/protocols
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: 0.6
+:ID:       11181f3f-8c84-4bf9-b5e6-1f7122233bb3
 :END:
 [[./figs/wiki_certification.png]]
 
 ** What's new: Local information processing library
+:PROPERTIES:
+:ID:       755eeb7c-cca9-4ff4-95b0-6bcc62cabf9b
+:END:
 ***                                                              :B_column:
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: 0.4
+:ID:       a18c5763-bfba-43d3-93f5-ae728a9e7143
 :END:
 - Planning a separate "local information processing" page
 - Distinguish comm. / cert. / local IP
@@ -62,13 +85,18 @@ https://www.github.com/quantumprotocolzoo/protocols
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: 0.6
+:ID:       5febcd59-5b3d-4799-94e3-66a0d0a1d1f4
 :END:
 [[./figs/wiki_subroutines.png]]
 ** What's new: 2-step submission process
+:PROPERTIES:
+:ID:       5f731f1f-2b40-4f04-9b64-a163cbcb4c09
+:END:
 ***                                                              :B_column:
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: .4
+:ID:       2bba7c3a-184e-4080-8bc0-3dcc23c3e99b
 :END:
 - Each submission needs approval
 - Pages needing approval are visible to logged in users 
@@ -77,13 +105,18 @@ https://www.github.com/quantumprotocolzoo/protocols
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: .6
+:ID:       9b7c5f89-4c9b-4e10-9f89-76d5945d49fb
 :END:
 [[./figs/wiki_submission.png]]
 ** What's new: Knowledge graph
+:PROPERTIES:
+:ID:       f58f206f-7ac1-49ef-8e1c-ef9e36804786
+:END:
 ***                                                              :B_column:
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: .4
+:ID:       9c2b30f1-ffe9-4af7-977e-d6a357cc592c
 :END:
 - A page for exploring the full KG
 - A local KG per protocol
@@ -93,14 +126,19 @@ https://www.github.com/quantumprotocolzoo/protocols
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: .6
+:ID:       2b6bea24-4d74-4641-b393-5a1349d905a3
 :END:
 [[./figs/wiki_kg.png]]
 [[./figs/wiki_kg_2.png]]
 ** What's new: Planning a new home page
+:PROPERTIES:
+:ID:       5171532b-b69e-4da2-957f-f89b15bf7c6c
+:END:
 ***                                                              :B_column:
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: .4
+:ID:       ab016669-2034-4996-934f-aff52507f438
 :END:
 - Short(er)
 - Shows what you can find
@@ -109,13 +147,18 @@ https://www.github.com/quantumprotocolzoo/protocols
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: .6
+:ID:       8d8682ef-1d2c-483e-bcd2-6e704f072701
 :END:
 [[./draw_me_a_protocol.jpg]]
 ** What's new: What should you remember?
+:PROPERTIES:
+:ID:       8ce02703-044a-4345-b592-17cad803be7b
+:END:
 ***                                     :B_column:
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: .6
+:ID:       12a971b8-bae0-4444-aca1-536673ccc553
 :END:
 Contribute, promote, use!
 - https://wiki.veriqloud.fr
@@ -124,17 +167,28 @@ Contribute, promote, use!
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: .4
+:ID:       d9001f44-be98-4c5e-912c-c32f0c04a1ad
 :END:
 [[./figs/wiki_logo.png]]
 
 
 * Part II: Using the zoo
+:PROPERTIES:
+:ID:       48f46ddf-e308-4bdf-bfe6-faa535f3cb26
+:END:
 ** Part II: Using the zoo
+:PROPERTIES:
+:ID:       e696be1f-3772-4f1e-a357-788d6dcc5477
+:END:
 ** Using it: It works!
+:PROPERTIES:
+:ID:       7513b3f9-e163-4c9f-8127-b667fb18623b
+:END:
 ***                                                              :B_column:
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: .4
+:ID:       088811a5-436d-40c5-826a-39b13b3b3809
 :END:
 - 6 locations
 - About 80 participants
@@ -143,31 +197,47 @@ Contribute, promote, use!
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: .6
+:ID:       712c8ca8-f390-4f34-a559-9713baa287fc
 :END:
 [[./figs/hackathon.jpg]]
 
 ** Using it: What did we learn?
+:PROPERTIES:
+:ID:       5c89ac57-1e44-4566-a736-eba24d615eb2
+:END:
 ***  It is useful
+:PROPERTIES:
+:ID:       8522e748-c346-401a-8b90-9f06fd9be424
+:END:
   - Enough to find the challenges
   - (Almost) enough to code
 *** It needs expansion
+:PROPERTIES:
+:ID:       4d99e1d2-9b4a-471f-84dc-9b612072fe74
+:END:
 - More protocols
 - More code (examples + higher-order functions)
 - More details (links to security proof, type of security achieved)
   
 ** Using it: Planning the future
+:PROPERTIES:
+:ID:       4f5a753c-2b7e-4c63-aceb-529dd25ac19b
+:END:
 ***                                                             :B_columns:
 :PROPERTIES:
 :BEAMER_env: columns
+:ID:       89dffb3a-d4e3-473f-ba4a-cdf395ed47b4
 :END:
 ****                                                            :B_column:
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: .6
+:ID:       14343705-bbb6-41e8-93b7-b04ca09c5678
 :END:
 ***** The "Delft" approach...                                   :B_block:
 :PROPERTIES:
 :BEAMER_env: block
+:ID:       65617cbf-57b2-4f2b-98cd-2068d481b376
 :END:
   - Simulate
   - Build network layers on what you can do
@@ -175,6 +245,7 @@ Contribute, promote, use!
 ***** ... raises some challenges                                :B_block:
 :PROPERTIES:
 :BEAMER_env: block
+:ID:       fbfcd084-b804-4433-87d7-b39e81be4c12
 :END:
 - Experimentalists want to know if they'll publish in Nature!
   - Simulate or not simulate?
@@ -186,12 +257,19 @@ Contribute, promote, use!
 :PROPERTIES:
 :BEAMER_env: column
 :BEAMER_col: .4
+:ID:       4a5831d9-e437-4e68-9619-dd1e0c2a6546
 :END:
 [[./figs/network_stack.png]]
 
 
 ** Using it: Planning the future  
+:PROPERTIES:
+:ID:       20e4cd02-e1c8-4f1d-ba46-7ecba0de295b
+:END:
 *** Adopt a top-down approach
+:PROPERTIES:
+:ID:       c81cd90b-05b0-446e-8035-1970d10394a2
+:END:
 - Applications is what matters
 - Proper services should be provided (experimentalists will know if it's worth working on a protocol)
 - Abstract crypto as much as possible (quantum networks should be secure by design)
@@ -200,9 +278,18 @@ Contribute, promote, use!
 
 
 * Part III: Going further
+:PROPERTIES:
+:ID:       ef9a08d8-afba-4a6f-85a2-f3384b44d14c
+:END:
 ** Part III: Going further
+:PROPERTIES:
+:ID:       5bad4c61-5f24-43b3-a854-b6fff0ba6191
+:END:
 
 ** Direct link or teleportation ?
+:PROPERTIES:
+:ID:       11fbffae-f5a0-4d6e-abdd-0e5fa0d8fdbf
+:END:
 - Protocols make use of direct links between players:
   - Send qubit from $A$ to $B$
 - Network stack is not planning to send qubits but to teleport them
@@ -214,95 +301,131 @@ Contribute, promote, use!
   
 
 ** Constructing a Direct Quantum Link with Teleportation
+:PROPERTIES:
+:ID:       d035eeeb-f241-4098-b50d-0356657493a6
+:END:
 ***                                                             :B_columns:
 :PROPERTIES:
 :BEAMER_env: columns
 :BEAMER_opt: t
+:ID:       0dcd4856-e7b7-422e-8f16-eabea29fcc92
 :END:
 **** Direct Quantum Link                                         :B_block:
 :PROPERTIES:
 :BEAMER_env: block
 :BEAMER_col: .5
+:ID:       b8743af3-b2fa-416a-a340-eaf1e3c1b7dd
 :END:
 [[./figs/direct_quantum_link.png]]
 **** Teleportation                                               :B_block:
 :PROPERTIES:
 :BEAMER_env: block
 :BEAMER_col: .5
+:ID:       20f885b3-8cf3-4e5f-88f8-6f0afa3c4094
 :END:
 [[./figs/teleportation.png]]
 
 ** Teleportation correctly implements Direct Quantum Link
+:PROPERTIES:
+:ID:       205a2bb6-11c8-4a4a-92b3-a69d626395e5
+:END:
 ***                                                             :B_columns:
 :PROPERTIES:
 :BEAMER_env: columns
 :BEAMER_opt: t
+:ID:       f91eb2c5-a06f-418a-a808-6dff4251d007
 :END:
 **** Direct Quantum Link                                         :B_block:
 :PROPERTIES:
 :BEAMER_env: block
 :BEAMER_col: .5
+:ID:       f04e3c89-1add-4fcd-9441-8d758aa6ec23
 :END:
 [[./figs/direct_quantum_link_filtered.png]]
 **** Teleportation                                               :B_block:
 :PROPERTIES:
 :BEAMER_env: block
 :BEAMER_col: .5
+:ID:       17a728ec-6cc5-460a-9da6-08b0fe5c7454
 :END:
 [[./figs/teleportation_filtered.png]]
 *** 
+:PROPERTIES:
+:ID:       3521ade0-db54-415d-84b7-be536ff7b335
+:END:
 When no one is listening, teleportation works (perfectly)
 
 ** Teleportation securely implements Direct Quantum Link
+:PROPERTIES:
+:ID:       1a61ad14-59c9-453a-9778-5f3aabddb150
+:END:
 ***                                                             :B_columns:
 :PROPERTIES:
 :BEAMER_env: columns
 :BEAMER_opt: t
+:ID:       51c265f1-bac1-46ab-9165-240a86120845
 :END:
 **** Direct Quantum Link + simulator                             :B_block:
 :PROPERTIES:
 :BEAMER_env: block
 :BEAMER_col: .5
+:ID:       ed531da4-dbd3-4fb8-b315-41220a163d1c
 :END:
 [[./figs/direct_quantum_link_simulator.png]]
 **** Teleportation                                               :B_block:
 :PROPERTIES:
 :BEAMER_env: block
 :BEAMER_col: .5
+:ID:       8181d8a5-ddc4-44f4-8252-981cf7fb1707
 :END:
 [[./figs/teleportation.png]]
 *** 
+:PROPERTIES:
+:ID:       d66fa0cd-25fd-4e18-bada-d6d8fbe73c3d
+:END:
 Isn't it cheating? 
 
 No! The Direct Quantum Link does not achieve any security; the simulator rightfully  gets the to-be-transmitted quantum state. 
 
 
 ** Constructing a perfect EPR-source from Distillation
+:PROPERTIES:
+:ID:       b5859ffe-845a-4c45-91e6-e58a9e98d0f8
+:END:
 **Using a perfect EPR-source is no fun**
 ***                                                             :B_columns:
 :PROPERTIES:
 :BEAMER_env: columns
 :BEAMER_opt: t
+:ID:       a1d8d4b7-5f69-4191-be46-5d0d60fd2ce2
 :END:
 **** Perfect EPR-source                                          :B_block:
 :PROPERTIES:
 :BEAMER_env: block
 :BEAMER_col: .5
+:ID:       f4e7f53e-e3ab-4269-9452-ff47ac4f28f3
 :END:
 [[./figs/epr_source.png]]
 **** Distillation                                                :B_block:
 :PROPERTIES:
 :BEAMER_env: block
 :BEAMER_col: .5
+:ID:       973ebee3-0028-492c-a061-9d17679dfbf4
 :END:
 [[./figs/distillation.png]]
 ** More on distillation (1/2)
+:PROPERTIES:
+:ID:       7e9da6ee-7e24-4cc9-b5eb-34531afdbad0
+:END:
 3-step process
 - Apply Twirl + Symmetrisation
 - Verify that fidelity is what you expect or abort
 - Choose and apply a suitable distillation protocol
 
 ** More on distillation (2/2)
+:PROPERTIES:
+:ID:       56a70997-58e6-45c7-97b9-a9f5e1b39790
+:END:
 - Initial state: $\rho_{ABE} \in \mathcal{H}_2^{\otimes n} \otimes \mathcal{H}_2^{\otimes n} \otimes \mathcal H_E$
 - Entering protocol: $\rho = \text{Tr}_{E}(\rho_{ABE}) \in \mathcal H_2^{\otimes n} \otimes \mathcal H_2^{\otimes n}$
 - Twirl + Symmetrisation: $\rho_1 = \mathcal E_1(\rho) \in \mathcal H_2^{\otimes n-m} \otimes \mathcal H_2^{\otimes n-m}$
@@ -310,25 +433,34 @@ No! The Direct Quantum Link does not achieve any security; the simulator rightfu
 - Distillation $\rho_3 = \mathcal E_3(\rho_2) \in \mathcal H_2^{\otimes n-m-l-k} \otimes \mathcal H_2^{\otimes n-m-l-k} \oplus \mathcal H_\perp$
 
 ** Distillation correctly implements a perfect EPR-source (1/2)
+:PROPERTIES:
+:ID:       885faccd-7a68-439a-8313-5c7f7bd21ada
+:END:
 ***                                                             :B_columns:
 :PROPERTIES:
 :BEAMER_env: columns
 :BEAMER_opt: t
+:ID:       10b93f1a-508c-481b-bc32-07a1475bcdd2
 :END:
 **** Perfect EPR-source                                          :B_block:
 :PROPERTIES:
 :BEAMER_env: block
 :BEAMER_col: .5
+:ID:       36e49a02-82c4-45b6-a862-dd2e5ea43654
 :END:
 [[./figs/epr_source_filtered.png]]
 **** Distillation                                                :B_block:
 :PROPERTIES:
 :BEAMER_env: block
 :BEAMER_col: .5
+:ID:       60e504bd-1db8-4465-a93d-03d46a44d504
 :END:
 
 [[./figs/distillation_filtered.png]]
 ** Distillation correctly implements a perfect EPR-source (2/2)
+:PROPERTIES:
+:ID:       a9a306e8-4edb-496e-9883-677e53d5a9b3
+:END:
 - Twirl + Symmetrization
 $$\rho_1 = \rho_{\text{source}}^{\otimes n-m}$$ 
 - Finite precision fidelity estimation 
@@ -337,24 +469,33 @@ $$\rho_2 \approx (1-p_\perp) \rho_W^{\otimes n-m-l}  + p_\perp \ket{\perp}\bra{\
 $$\rho_3 \approx (1-p_\perp') \ket{\Phi^+}\bra{\Phi^+} ^{\otimes n-m-l-k} + p_\perp' \ket{\perp}\bra{\perp}$$
 
 ** Distillation securely implements a perfect EPR-source (1/3)
+:PROPERTIES:
+:ID:       19e641f6-7b23-46c4-9b2c-ef6703115161
+:END:
 ***                                                             :B_columns:
 :PROPERTIES:
 :BEAMER_env: columns
 :BEAMER_opt: t
+:ID:       1900f255-fa5d-4cbe-b71d-363b06b6cd3e
 :END:
 **** Perfect EPR-source + simulator                              :B_block:
 :PROPERTIES:
 :BEAMER_env: block
 :BEAMER_col: .5
+:ID:       38dafeb0-750e-4cae-8983-0674a1f0cd25
 :END:
 [[./figs/epr_source_simulator.png]]
 **** Distillation                                                :B_block:
 :PROPERTIES:
 :BEAMER_env: block
 :BEAMER_col: .5
+:ID:       475c0a7b-5d77-4d6b-a4c4-b10422f97ab4
 :END:
 [[./figs/distillation.png]]
 ** Distillation securely implements a perfect EPR-source (2/3)
+:PROPERTIES:
+:ID:       462df0ee-b8de-4d06-a0b6-54ced848ed2d
+:END:
 We should be looking at $\rho_{ABE}$, but in fact we can get away by (almost only) looking at $\rho_{AB}$!
 
 - Tracing out 
@@ -367,6 +508,9 @@ $$\rho_2  \approx (1-p_\perp) \rho_W^{\otimes n-m-l}  + p_\perp \ket{\perp}\bra{
 $$\rho_3 \approx (1-p_\perp') \ket{\Phi^+}\bra{\Phi^+} ^{\otimes n-m-l-k} + p_\perp' \ket{\perp}\bra{\perp}$$
 
 ** Distillation securely implements a perfect EPR-source (3/3)
+:PROPERTIES:
+:ID:       6f41c8df-152f-48c1-abfa-320aa3b4e145
+:END:
 We should be looking at $\rho_{ABE}$, but in fact we can get away by (almost only) looking at $\rho_{AB}$!
 
 - The analysis without $E$ gives
@@ -377,8 +521,14 @@ $$((\mathcal{E}_3 \circ \mathcal E_2 \circ \mathcal E_1) \otimes \text{Id}_E) \r
 
 
 * Conclusion
+:PROPERTIES:
+:ID:       f50e4e4e-31e4-4507-b4df-1bbd8b8096d2
+:END:
 
 ** Conclusion
+:PROPERTIES:
+:ID:       9f063ea8-8c14-4a3f-b9b6-9146045bc220
+:END:
 - We have a great tool to expand at https://wiki.veriqloud.fr
 - It's directly useful to the community and also to ourselves
 - Expand this kind of analysis

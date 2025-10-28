@@ -1,4 +1,7 @@
 ** Appendix
+:PROPERTIES:
+:ID:       89c0386f-205d-4a19-b586-ed56ac77a7d2
+:END:
 - de Finetti theorem gives: 
 $$\|\rho_1 - \rho{\text{iid}}\| \leq 32 \frac{n-m}{n}$$
 - fidelity estimation $\tilde F$ is close to actual fidelity $F$:
