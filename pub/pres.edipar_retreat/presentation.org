@@ -9,7 +9,6 @@
 #+BEAMER_THEME: default
 :END:
 
-
 * Part I: Updating the zoo
 :PROPERTIES:
 :ID:       bfcd2306-c464-41f9-8f5d-c73a5e40ee55
